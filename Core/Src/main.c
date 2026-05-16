@@ -94,6 +94,16 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+
+    HAL_GPIO_TogglePin(GPIOA,LED_SIMPLE_Pin);
+    HAL_Delay(500);
+    if (HAL_GPIO_ReadPin(GPIOA,KEY_Pin) == GPIO_PIN_RESET) {
+      HAL_Delay(10);
+      if (HAL_GPIO_ReadPin(GPIOA,KEY_Pin) == GPIO_PIN_RESET) {
+        HAL_GPIO_TogglePin(GPIOA,LED_KEY_Pin);
+      }
+    }
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
