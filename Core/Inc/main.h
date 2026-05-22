@@ -64,9 +64,20 @@ void Error_Handler(void);
 #define KEY_EXTI_IRQn EXTI2_IRQn
 #define LED_KEY_Pin GPIO_PIN_6
 #define LED_KEY_GPIO_Port GPIOA
+#define EC11A_Pin GPIO_PIN_0
+#define EC11A_GPIO_Port GPIOB
+#define EC11A_EXTI_IRQn EXTI0_IRQn
+#define EC11B_Pin GPIO_PIN_1
+#define EC11B_GPIO_Port GPIOB
+#define EC11B_EXTI_IRQn EXTI1_IRQn
+#define OLED_SCL_Pin GPIO_PIN_8
+#define OLED_SCL_GPIO_Port GPIOB
+#define OLED_SDA_Pin GPIO_PIN_9
+#define OLED_SDA_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
-
+extern uint8_t ReceiveData[2];
+extern int EC_count;
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

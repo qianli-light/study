@@ -18,11 +18,16 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "dma.h"
+#include "usart.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include <string.h>
 
+#include "MY_OLED.h"
+#include "OLED.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -43,6 +48,11 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
+int EC_count = 0;
+
+uint8_t TransmitNumData[3] = {0,34,0x78};
+char TransmitCharData[] = {"%wnywl"};
+uint8_t ReceiveData[2];
 
 /* USER CODE END PV */
 
@@ -81,12 +91,23 @@ int main(void)
   SystemClock_Config();
 
   /* USER CODE BEGIN SysInit */
-
+  OLED_Init();
+  HAL_UART_MspInit(&huart3);
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  MX_DMA_Init();
+  MX_USART3_UART_Init();
   /* USER CODE BEGIN 2 */
+  interface_3();
+  HAL_Delay(1000);
+  interface_4();
+  interface_2();
+  HAL_Delay(1000);
+  interface_5_head();
+
+    HAL_UART_Receive_DMA(&huart3,ReceiveData,2);
 
   /* USER CODE END 2 */
 
@@ -94,9 +115,20 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+    interface_5_main();
+
+    TransmitNumData[0]=EC_count;
+
+    HAL_UART_Transmit_DMA(&huart3, (uint8_t*)TransmitCharData,strlen(TransmitCharData));
 
     HAL_GPIO_TogglePin(GPIOA,LED_SIMPLE_Pin);
     HAL_Delay(500);
+
+    HAL_UART_Transmit_DMA(&huart3,TransmitNumData,sizeof(TransmitNumData));
+
+
+
+
 
 
     /* USER CODE END WHILE */
