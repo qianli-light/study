@@ -18,12 +18,14 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "adc.h"
 #include "dma.h"
 #include "usart.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include <stdio.h>
 #include <string.h>
 
 #include "MY_OLED.h"
@@ -54,6 +56,10 @@ uint8_t TransmitNumData[3] = {0,34,0x78};
 char TransmitCharData[] = {"%wnywl"};
 uint8_t ReceiveData[2];
 
+uint16_t ADC_value[3];
+float voltage[3];
+float digital_vref=3.3;
+char AD_Transmit_Data[50]="";
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -99,6 +105,7 @@ int main(void)
   MX_GPIO_Init();
   MX_DMA_Init();
   MX_USART3_UART_Init();
+  MX_ADC1_Init();
   /* USER CODE BEGIN 2 */
   interface_3();
   HAL_Delay(1000);
@@ -107,7 +114,12 @@ int main(void)
   HAL_Delay(1000);
   interface_5_head();
 
-    HAL_UART_Receive_DMA(&huart3,ReceiveData,2);
+  HAL_ADCEx_Calibration_Start(&hadc1);
+  HAL_ADC_Start_DMA(&hadc1,(uint32_t*)ADC_value,sizeof(ADC_value)/sizeof(uint16_t));
+
+  HAL_UART_Receive_DMA(&huart3,ReceiveData,2);
+
+
 
   /* USER CODE END 2 */
 
@@ -119,16 +131,20 @@ int main(void)
 
     TransmitNumData[0]=EC_count;
 
-    HAL_UART_Transmit_DMA(&huart3, (uint8_t*)TransmitCharData,strlen(TransmitCharData));
-
     HAL_GPIO_TogglePin(GPIOA,LED_SIMPLE_Pin);
     HAL_Delay(500);
 
+    //HAL_UART_Transmit_DMA(&huart3, (uint8_t*)TransmitCharData,strlen(TransmitCharData));
     HAL_UART_Transmit_DMA(&huart3,TransmitNumData,sizeof(TransmitNumData));
 
+    voltage[2]=1.2*(4095.0/(float)ADC_value[2]);
+    digital_vref=voltage[2];
 
+    voltage[0]=ADC_value[0]/4095.0*digital_vref;
+    voltage[1]=ADC_value[1]/4095.0*digital_vref;
 
-
+    sprintf(AD_Transmit_Data,"ADC_value: %d %d %d voltage:  %.2f %.2f %.2f",ADC_value[0],ADC_value[1],ADC_value[2],voltage[0],voltage[1],voltage[2]);
+    HAL_UART_Transmit_DMA(&huart3,(uint8_t*)AD_Transmit_Data,strlen(AD_Transmit_Data));
 
 
     /* USER CODE END WHILE */
@@ -146,6 +162,7 @@ void SystemClock_Config(void)
 {
   RCC_OscInitTypeDef RCC_OscInitStruct = {0};
   RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
+  RCC_PeriphCLKInitTypeDef PeriphClkInit = {0};
 
   /** Initializes the RCC Oscillators according to the specified parameters
   * in the RCC_OscInitTypeDef structure.
@@ -172,6 +189,12 @@ void SystemClock_Config(void)
   RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
 
   if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_2) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_ADC;
+  PeriphClkInit.AdcClockSelection = RCC_ADCPCLK2_DIV6;
+  if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK)
   {
     Error_Handler();
   }

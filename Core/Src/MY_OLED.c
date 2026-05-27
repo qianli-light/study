@@ -52,7 +52,7 @@ void interface_4(void) {
         for (int x=17;x<=111;x++) {
             OLED_DrawLine(x,9,x,55);
             OLED_Update();
-                HAL_Delay(100);
+                HAL_Delay(5);
 
         }
 
@@ -61,13 +61,24 @@ void interface_4(void) {
     }
 void interface_5_head(void) {
     OLED_Clear();
-    OLED_ShowString(0,0,"EC_count",OLED_8X16);
-    OLED_ShowChar(64,0,':',OLED_8X16);
+    OLED_ShowString(0,0,"EC_count:",OLED_8X16);
+    OLED_ShowString(0,16,"ADC_value:",OLED_6X8);
+    OLED_ShowString(0,32,"Voltage:",OLED_6X8);
+
 
     OLED_Update();
 }
 void interface_5_main(void) {
     OLED_ShowSignedNum(72,0,EC_count,5,OLED_8X16);
+
+    OLED_ShowNum(60,16,ADC_value[0],4,OLED_6X8);
+    OLED_ShowNum(90,16,ADC_value[1],4,OLED_6X8);
+    OLED_ShowNum(60,24,ADC_value[2],4,OLED_6X8);
+
+    OLED_ShowFloatNum(48,32,voltage[0],1,2,OLED_6X8);
+    OLED_ShowFloatNum(84,32,voltage[1],1,2,OLED_6X8);
+    OLED_ShowFloatNum(48,40,voltage[2],1,2,OLED_6X8);
+
     OLED_Update();
 }
 
