@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = F$:/CLION__Project/study/build/Debug/
+cmake_ninja_workdir = F$:/CLION__Project/study_wnywl1/build/Debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target study
 
@@ -49,120 +49,129 @@ cmake_ninja_workdir = F$:/CLION__Project/study/build/Debug/
 
 build cmake_object_order_depends_target_study: phony || cmake_object_order_depends_target_STM32_Drivers
 
-build CMakeFiles/study.dir/Core/Src/OLED.c.obj: C_COMPILER__study_unscanned_Debug F$:/CLION__Project/study/Core/Src/OLED.c || cmake_object_order_depends_target_study
+build CMakeFiles/study.dir/Core/Src/OLED.c.obj: C_COMPILER__study_unscanned_Debug F$:/CLION__Project/study_wnywl1/Core/Src/OLED.c || cmake_object_order_depends_target_study
   CONFIG = Debug
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\study.dir\Core\Src\OLED.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -IF:/CLION__Project/study/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\study.dir
   OBJECT_FILE_DIR = CMakeFiles\study.dir\Core\Src
 
-build CMakeFiles/study.dir/Core/Src/MY_OLED.c.obj: C_COMPILER__study_unscanned_Debug F$:/CLION__Project/study/Core/Src/MY_OLED.c || cmake_object_order_depends_target_study
+build CMakeFiles/study.dir/Core/Src/MY_OLED.c.obj: C_COMPILER__study_unscanned_Debug F$:/CLION__Project/study_wnywl1/Core/Src/MY_OLED.c || cmake_object_order_depends_target_study
   CONFIG = Debug
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\study.dir\Core\Src\MY_OLED.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -IF:/CLION__Project/study/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\study.dir
   OBJECT_FILE_DIR = CMakeFiles\study.dir\Core\Src
 
-build CMakeFiles/study.dir/Core/Src/OLED_Data.c.obj: C_COMPILER__study_unscanned_Debug F$:/CLION__Project/study/Core/Src/OLED_Data.c || cmake_object_order_depends_target_study
+build CMakeFiles/study.dir/Core/Src/OLED_Data.c.obj: C_COMPILER__study_unscanned_Debug F$:/CLION__Project/study_wnywl1/Core/Src/OLED_Data.c || cmake_object_order_depends_target_study
   CONFIG = Debug
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\study.dir\Core\Src\OLED_Data.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -IF:/CLION__Project/study/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\study.dir
   OBJECT_FILE_DIR = CMakeFiles\study.dir\Core\Src
 
-build CMakeFiles/study.dir/Core/Src/main.c.obj: C_COMPILER__study_unscanned_Debug F$:/CLION__Project/study/Core/Src/main.c || cmake_object_order_depends_target_study
+build CMakeFiles/study.dir/Core/Src/main.c.obj: C_COMPILER__study_unscanned_Debug F$:/CLION__Project/study_wnywl1/Core/Src/main.c || cmake_object_order_depends_target_study
   CONFIG = Debug
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\study.dir\Core\Src\main.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -IF:/CLION__Project/study/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\study.dir
   OBJECT_FILE_DIR = CMakeFiles\study.dir\Core\Src
 
-build CMakeFiles/study.dir/Core/Src/gpio.c.obj: C_COMPILER__study_unscanned_Debug F$:/CLION__Project/study/Core/Src/gpio.c || cmake_object_order_depends_target_study
+build CMakeFiles/study.dir/Core/Src/gpio.c.obj: C_COMPILER__study_unscanned_Debug F$:/CLION__Project/study_wnywl1/Core/Src/gpio.c || cmake_object_order_depends_target_study
   CONFIG = Debug
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\study.dir\Core\Src\gpio.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -IF:/CLION__Project/study/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\study.dir
   OBJECT_FILE_DIR = CMakeFiles\study.dir\Core\Src
 
-build CMakeFiles/study.dir/Core/Src/adc.c.obj: C_COMPILER__study_unscanned_Debug F$:/CLION__Project/study/Core/Src/adc.c || cmake_object_order_depends_target_study
+build CMakeFiles/study.dir/Core/Src/adc.c.obj: C_COMPILER__study_unscanned_Debug F$:/CLION__Project/study_wnywl1/Core/Src/adc.c || cmake_object_order_depends_target_study
   CONFIG = Debug
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\study.dir\Core\Src\adc.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -IF:/CLION__Project/study/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\study.dir
   OBJECT_FILE_DIR = CMakeFiles\study.dir\Core\Src
 
-build CMakeFiles/study.dir/Core/Src/dma.c.obj: C_COMPILER__study_unscanned_Debug F$:/CLION__Project/study/Core/Src/dma.c || cmake_object_order_depends_target_study
+build CMakeFiles/study.dir/Core/Src/dma.c.obj: C_COMPILER__study_unscanned_Debug F$:/CLION__Project/study_wnywl1/Core/Src/dma.c || cmake_object_order_depends_target_study
   CONFIG = Debug
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\study.dir\Core\Src\dma.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -IF:/CLION__Project/study/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\study.dir
   OBJECT_FILE_DIR = CMakeFiles\study.dir\Core\Src
 
-build CMakeFiles/study.dir/Core/Src/usart.c.obj: C_COMPILER__study_unscanned_Debug F$:/CLION__Project/study/Core/Src/usart.c || cmake_object_order_depends_target_study
+build CMakeFiles/study.dir/Core/Src/tim.c.obj: C_COMPILER__study_unscanned_Debug F$:/CLION__Project/study_wnywl1/Core/Src/tim.c || cmake_object_order_depends_target_study
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\study.dir\Core\Src\tim.c.obj.d
+  FLAGS = -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\study.dir
+  OBJECT_FILE_DIR = CMakeFiles\study.dir\Core\Src
+
+build CMakeFiles/study.dir/Core/Src/usart.c.obj: C_COMPILER__study_unscanned_Debug F$:/CLION__Project/study_wnywl1/Core/Src/usart.c || cmake_object_order_depends_target_study
   CONFIG = Debug
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\study.dir\Core\Src\usart.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -IF:/CLION__Project/study/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\study.dir
   OBJECT_FILE_DIR = CMakeFiles\study.dir\Core\Src
 
-build CMakeFiles/study.dir/Core/Src/stm32f1xx_it.c.obj: C_COMPILER__study_unscanned_Debug F$:/CLION__Project/study/Core/Src/stm32f1xx_it.c || cmake_object_order_depends_target_study
+build CMakeFiles/study.dir/Core/Src/stm32f1xx_it.c.obj: C_COMPILER__study_unscanned_Debug F$:/CLION__Project/study_wnywl1/Core/Src/stm32f1xx_it.c || cmake_object_order_depends_target_study
   CONFIG = Debug
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\study.dir\Core\Src\stm32f1xx_it.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -IF:/CLION__Project/study/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\study.dir
   OBJECT_FILE_DIR = CMakeFiles\study.dir\Core\Src
 
-build CMakeFiles/study.dir/Core/Src/stm32f1xx_hal_msp.c.obj: C_COMPILER__study_unscanned_Debug F$:/CLION__Project/study/Core/Src/stm32f1xx_hal_msp.c || cmake_object_order_depends_target_study
+build CMakeFiles/study.dir/Core/Src/stm32f1xx_hal_msp.c.obj: C_COMPILER__study_unscanned_Debug F$:/CLION__Project/study_wnywl1/Core/Src/stm32f1xx_hal_msp.c || cmake_object_order_depends_target_study
   CONFIG = Debug
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\study.dir\Core\Src\stm32f1xx_hal_msp.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -IF:/CLION__Project/study/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\study.dir
   OBJECT_FILE_DIR = CMakeFiles\study.dir\Core\Src
 
-build CMakeFiles/study.dir/Core/Src/sysmem.c.obj: C_COMPILER__study_unscanned_Debug F$:/CLION__Project/study/Core/Src/sysmem.c || cmake_object_order_depends_target_study
+build CMakeFiles/study.dir/Core/Src/sysmem.c.obj: C_COMPILER__study_unscanned_Debug F$:/CLION__Project/study_wnywl1/Core/Src/sysmem.c || cmake_object_order_depends_target_study
   CONFIG = Debug
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\study.dir\Core\Src\sysmem.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -IF:/CLION__Project/study/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\study.dir
   OBJECT_FILE_DIR = CMakeFiles\study.dir\Core\Src
 
-build CMakeFiles/study.dir/Core/Src/syscalls.c.obj: C_COMPILER__study_unscanned_Debug F$:/CLION__Project/study/Core/Src/syscalls.c || cmake_object_order_depends_target_study
+build CMakeFiles/study.dir/Core/Src/syscalls.c.obj: C_COMPILER__study_unscanned_Debug F$:/CLION__Project/study_wnywl1/Core/Src/syscalls.c || cmake_object_order_depends_target_study
   CONFIG = Debug
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\study.dir\Core\Src\syscalls.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -IF:/CLION__Project/study/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\study.dir
   OBJECT_FILE_DIR = CMakeFiles\study.dir\Core\Src
 
-build CMakeFiles/study.dir/startup_stm32f103xb.s.obj: ASM_COMPILER__study_unscanned_Debug F$:/CLION__Project/study/startup_stm32f103xb.s || cmake_object_order_depends_target_study
+build CMakeFiles/study.dir/startup_stm32f103xb.s.obj: ASM_COMPILER__study_unscanned_Debug F$:/CLION__Project/study_wnywl1/startup_stm32f103xb.s || cmake_object_order_depends_target_study
   CONFIG = Debug
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\study.dir\startup_stm32f103xb.s.obj.d
   FLAGS = -mcpu=cortex-m3  -x assembler-with-cpp -MMD -MP -g
-  INCLUDES = -IF:/CLION__Project/study/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\study.dir
   OBJECT_FILE_DIR = CMakeFiles\study.dir
 
@@ -174,10 +183,10 @@ build CMakeFiles/study.dir/startup_stm32f103xb.s.obj: ASM_COMPILER__study_unscan
 #############################################
 # Link the executable study.elf
 
-build study.elf: C_EXECUTABLE_LINKER__study_Debug cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj CMakeFiles/study.dir/Core/Src/OLED.c.obj CMakeFiles/study.dir/Core/Src/MY_OLED.c.obj CMakeFiles/study.dir/Core/Src/OLED_Data.c.obj CMakeFiles/study.dir/Core/Src/main.c.obj CMakeFiles/study.dir/Core/Src/gpio.c.obj CMakeFiles/study.dir/Core/Src/adc.c.obj CMakeFiles/study.dir/Core/Src/dma.c.obj CMakeFiles/study.dir/Core/Src/usart.c.obj CMakeFiles/study.dir/Core/Src/stm32f1xx_it.c.obj CMakeFiles/study.dir/Core/Src/stm32f1xx_hal_msp.c.obj CMakeFiles/study.dir/Core/Src/sysmem.c.obj CMakeFiles/study.dir/Core/Src/syscalls.c.obj CMakeFiles/study.dir/startup_stm32f103xb.s.obj || cmake/stm32cubemx/STM32_Drivers
+build study.elf: C_EXECUTABLE_LINKER__study_Debug cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj CMakeFiles/study.dir/Core/Src/OLED.c.obj CMakeFiles/study.dir/Core/Src/MY_OLED.c.obj CMakeFiles/study.dir/Core/Src/OLED_Data.c.obj CMakeFiles/study.dir/Core/Src/main.c.obj CMakeFiles/study.dir/Core/Src/gpio.c.obj CMakeFiles/study.dir/Core/Src/adc.c.obj CMakeFiles/study.dir/Core/Src/dma.c.obj CMakeFiles/study.dir/Core/Src/tim.c.obj CMakeFiles/study.dir/Core/Src/usart.c.obj CMakeFiles/study.dir/Core/Src/stm32f1xx_it.c.obj CMakeFiles/study.dir/Core/Src/stm32f1xx_hal_msp.c.obj CMakeFiles/study.dir/Core/Src/sysmem.c.obj CMakeFiles/study.dir/Core/Src/syscalls.c.obj CMakeFiles/study.dir/startup_stm32f103xb.s.obj || cmake/stm32cubemx/STM32_Drivers
   CONFIG = Debug
   FLAGS = -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3
-  LINK_FLAGS = -mcpu=cortex-m3  -Wl,-u,_printf_float -T "F:/CLION__Project/study/STM32F103XX_FLASH.ld" --specs=nano.specs -Wl,-Map=study.map -Wl,--gc-sections -Wl,--print-memory-usage
+  LINK_FLAGS = -mcpu=cortex-m3  -Wl,-u,_printf_float -T "F:/CLION__Project/study_wnywl1/STM32F103XX_FLASH.ld" --specs=nano.specs -Wl,-Map=study.map -Wl,--gc-sections -Wl,--print-memory-usage
   LINK_LIBRARIES = -lm
   OBJECT_DIR = CMakeFiles\study.dir
   POST_BUILD = cd .
@@ -190,7 +199,7 @@ build study.elf: C_EXECUTABLE_LINKER__study_Debug cmake/stm32cubemx/CMakeFiles/S
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D F:\CLION__Project\study\build\Debug && "E:\CLION\CLion 2025.3.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D F:\CLION__Project\study_wnywl1\build\Debug && "E:\CLION\CLion 2025.3.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -201,7 +210,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D F:\CLION__Project\study\build\Debug && "E:\CLION\CLion 2025.3.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SF:\CLION__Project\study -BF:\CLION__Project\study\build\Debug"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D F:\CLION__Project\study_wnywl1\build\Debug && "E:\CLION\CLion 2025.3.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SF:\CLION__Project\study_wnywl1 -BF:\CLION__Project\study_wnywl1\build\Debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -210,7 +219,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# F:/CLION__Project/study/CMakeLists.txt
+# F:/CLION__Project/study_wnywl1/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -222,138 +231,156 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build cmake_object_order_depends_target_STM32_Drivers: phony || .
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study/Core/Src/system_stm32f1xx.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study_wnywl1/Core/Src/system_stm32f1xx.c || cmake_object_order_depends_target_STM32_Drivers
   CONFIG = Debug
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Core\Src\system_stm32f1xx.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -IF:/CLION__Project/study/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Core\Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study_wnywl1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c || cmake_object_order_depends_target_STM32_Drivers
   CONFIG = Debug
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -IF:/CLION__Project/study/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study_wnywl1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c || cmake_object_order_depends_target_STM32_Drivers
   CONFIG = Debug
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -IF:/CLION__Project/study/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study_wnywl1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c || cmake_object_order_depends_target_STM32_Drivers
   CONFIG = Debug
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -IF:/CLION__Project/study/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study_wnywl1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c || cmake_object_order_depends_target_STM32_Drivers
   CONFIG = Debug
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -IF:/CLION__Project/study/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study_wnywl1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c || cmake_object_order_depends_target_STM32_Drivers
   CONFIG = Debug
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -IF:/CLION__Project/study/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study_wnywl1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c || cmake_object_order_depends_target_STM32_Drivers
   CONFIG = Debug
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -IF:/CLION__Project/study/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study_wnywl1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c || cmake_object_order_depends_target_STM32_Drivers
   CONFIG = Debug
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -IF:/CLION__Project/study/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study_wnywl1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c || cmake_object_order_depends_target_STM32_Drivers
   CONFIG = Debug
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -IF:/CLION__Project/study/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study_wnywl1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c || cmake_object_order_depends_target_STM32_Drivers
   CONFIG = Debug
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -IF:/CLION__Project/study/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study_wnywl1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c || cmake_object_order_depends_target_STM32_Drivers
   CONFIG = Debug
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -IF:/CLION__Project/study/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study_wnywl1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c || cmake_object_order_depends_target_STM32_Drivers
   CONFIG = Debug
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -IF:/CLION__Project/study/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study_wnywl1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c || cmake_object_order_depends_target_STM32_Drivers
   CONFIG = Debug
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -IF:/CLION__Project/study/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study_wnywl1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c || cmake_object_order_depends_target_STM32_Drivers
   CONFIG = Debug
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -IF:/CLION__Project/study/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
 
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c || cmake_object_order_depends_target_STM32_Drivers
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study_wnywl1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
+  DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj.d
+  FLAGS = -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study_wnywl1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
+  DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.obj.d
+  FLAGS = -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: C_COMPILER__STM32_Drivers_unscanned_Debug F$:/CLION__Project/study_wnywl1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c || cmake_object_order_depends_target_STM32_Drivers
   CONFIG = Debug
   DEFINES = -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.obj.d
   FLAGS = -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always
-  INCLUDES = -IF:/CLION__Project/study/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  INCLUDES = -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -IF:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -362,14 +389,14 @@ build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL
 #############################################
 # Object library STM32_Drivers
 
-build cmake/stm32cubemx/STM32_Drivers: phony cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+build cmake/stm32cubemx/STM32_Drivers: phony cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
 
 
 #############################################
 # Utility command for edit_cache
 
 build cmake/stm32cubemx/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D F:\CLION__Project\study\build\Debug\cmake\stm32cubemx && "E:\CLION\CLion 2025.3.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D F:\CLION__Project\study_wnywl1\build\Debug\cmake\stm32cubemx && "E:\CLION\CLion 2025.3.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -380,7 +407,7 @@ build cmake/stm32cubemx/edit_cache: phony cmake/stm32cubemx/CMakeFiles/edit_cach
 # Utility command for rebuild_cache
 
 build cmake/stm32cubemx/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D F:\CLION__Project\study\build\Debug\cmake\stm32cubemx && "E:\CLION\CLion 2025.3.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SF:\CLION__Project\study -BF:\CLION__Project\study\build\Debug"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D F:\CLION__Project\study_wnywl1\build\Debug\cmake\stm32cubemx && "E:\CLION\CLion 2025.3.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SF:\CLION__Project\study_wnywl1 -BF:\CLION__Project\study_wnywl1\build\Debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -400,14 +427,14 @@ build study: phony study.elf
 # =============================================================================
 
 #############################################
-# Folder: F:/CLION__Project/study/build/Debug
+# Folder: F:/CLION__Project/study_wnywl1/build/Debug
 
 build all: phony study.elf cmake/stm32cubemx/all
 
 # =============================================================================
 
 #############################################
-# Folder: F:/CLION__Project/study/build/Debug/cmake/stm32cubemx
+# Folder: F:/CLION__Project/study_wnywl1/build/Debug/cmake/stm32cubemx
 
 build cmake/stm32cubemx/all: phony cmake/stm32cubemx/STM32_Drivers
 
@@ -418,14 +445,14 @@ build cmake/stm32cubemx/all: phony cmake/stm32cubemx/STM32_Drivers
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja F$:/CLION__Project/study/build/Debug/cmake_install.cmake F$:/CLION__Project/study/build/Debug/cmake/stm32cubemx/cmake_install.cmake: RERUN_CMAKE | CMakeCache.txt CMakeFiles/4.1.2/CMakeASMCompiler.cmake CMakeFiles/4.1.2/CMakeCCompiler.cmake CMakeFiles/4.1.2/CMakeCXXCompiler.cmake CMakeFiles/4.1.2/CMakeSystem.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeASMInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCXXInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeGenericSystem.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-ASM.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-C.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-CXX.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeASMLinkerInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeCXXLinkerInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Generic.cmake F$:/CLION__Project/study/CMakeLists.txt F$:/CLION__Project/study/cmake/gcc-arm-none-eabi.cmake F$:/CLION__Project/study/cmake/stm32cubemx/CMakeLists.txt
+build build.ninja F$:/CLION__Project/study_wnywl1/build/Debug/cmake_install.cmake F$:/CLION__Project/study_wnywl1/build/Debug/cmake/stm32cubemx/cmake_install.cmake: RERUN_CMAKE | CMakeCache.txt CMakeFiles/4.1.2/CMakeASMCompiler.cmake CMakeFiles/4.1.2/CMakeCCompiler.cmake CMakeFiles/4.1.2/CMakeCXXCompiler.cmake CMakeFiles/4.1.2/CMakeSystem.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeASMInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCXXInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeGenericSystem.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-ASM.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-C.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-CXX.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeASMLinkerInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeCXXLinkerInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Generic.cmake F$:/CLION__Project/study_wnywl1/CMakeLists.txt F$:/CLION__Project/study_wnywl1/cmake/gcc-arm-none-eabi.cmake F$:/CLION__Project/study_wnywl1/cmake/stm32cubemx/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/4.1.2/CMakeASMCompiler.cmake CMakeFiles/4.1.2/CMakeCCompiler.cmake CMakeFiles/4.1.2/CMakeCXXCompiler.cmake CMakeFiles/4.1.2/CMakeSystem.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeASMInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCXXInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeGenericSystem.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-ASM.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-C.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-CXX.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeASMLinkerInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeCXXLinkerInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Generic.cmake F$:/CLION__Project/study/CMakeLists.txt F$:/CLION__Project/study/cmake/gcc-arm-none-eabi.cmake F$:/CLION__Project/study/cmake/stm32cubemx/CMakeLists.txt: phony
+build CMakeCache.txt CMakeFiles/4.1.2/CMakeASMCompiler.cmake CMakeFiles/4.1.2/CMakeCCompiler.cmake CMakeFiles/4.1.2/CMakeCXXCompiler.cmake CMakeFiles/4.1.2/CMakeSystem.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeASMInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCXXInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeGenericSystem.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-ASM.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-C.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-CXX.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeASMLinkerInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeCXXLinkerInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake E$:/CLION/CLion$ 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Generic.cmake F$:/CLION__Project/study_wnywl1/CMakeLists.txt F$:/CLION__Project/study_wnywl1/cmake/gcc-arm-none-eabi.cmake F$:/CLION__Project/study_wnywl1/cmake/stm32cubemx/CMakeLists.txt: phony
 
 
 #############################################

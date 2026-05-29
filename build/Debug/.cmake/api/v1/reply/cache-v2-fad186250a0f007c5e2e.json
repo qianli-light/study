@@ -179,7 +179,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "f:/CLION__Project/study/build/Debug"
+			"value" : "f:/CLION__Project/study_wnywl1/build/Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -635,7 +635,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "F:/CLION__Project/study/build/Debug/CMakeFiles/pkgRedirects"
+			"value" : "F:/CLION__Project/study_wnywl1/build/Debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -695,7 +695,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "F:/CLION__Project/study"
+			"value" : "F:/CLION__Project/study_wnywl1"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1199,7 +1199,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "F:/CLION__Project/study/cmake/gcc-arm-none-eabi.cmake"
+			"value" : "F:/CLION__Project/study_wnywl1/cmake/gcc-arm-none-eabi.cmake"
 		},
 		{
 			"name" : "CMAKE_VERBOSE_MAKEFILE",
@@ -1227,7 +1227,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "F:/CLION__Project/study/build/Debug"
+			"value" : "F:/CLION__Project/study_wnywl1/build/Debug"
 		},
 		{
 			"name" : "study_IS_TOP_LEVEL",
@@ -1251,7 +1251,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "F:/CLION__Project/study"
+			"value" : "F:/CLION__Project/study_wnywl1"
 		}
 	],
 	"kind" : "cache",

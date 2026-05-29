@@ -62,7 +62,7 @@ rule C_COMPILER__STM32_Drivers_unscanned_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "E:\CLION\CLion 2025.3.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SF:\CLION__Project\study -BF:\CLION__Project\study\build\Debug
+  command = "E:\CLION\CLion 2025.3.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SF:\CLION__Project\study_wnywl1 -BF:\CLION__Project\study_wnywl1\build\Debug
   description = Re-running CMake...
   generator = 1
 

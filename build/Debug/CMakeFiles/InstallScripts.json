@@ -1,8 +1,8 @@
 {
 	"InstallScripts" : 
 	[
-		"F:/CLION__Project/study/build/Debug/cmake_install.cmake",
-		"F:/CLION__Project/study/build/Debug/cmake/stm32cubemx/cmake_install.cmake"
+		"F:/CLION__Project/study_wnywl1/build/Debug/cmake_install.cmake",
+		"F:/CLION__Project/study_wnywl1/build/Debug/cmake/stm32cubemx/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

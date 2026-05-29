@@ -20,6 +20,7 @@
 #include "main.h"
 #include "adc.h"
 #include "dma.h"
+#include "tim.h"
 #include "usart.h"
 #include "gpio.h"
 
@@ -106,7 +107,10 @@ int main(void)
   MX_DMA_Init();
   MX_USART3_UART_Init();
   MX_ADC1_Init();
+  MX_TIM4_Init();
   /* USER CODE BEGIN 2 */
+  HAL_TIM_Base_Start_IT(&htim4);
+
   interface_3();
   HAL_Delay(1000);
   interface_4();
@@ -135,7 +139,7 @@ int main(void)
     HAL_Delay(500);
 
     //HAL_UART_Transmit_DMA(&huart3, (uint8_t*)TransmitCharData,strlen(TransmitCharData));
-    HAL_UART_Transmit_DMA(&huart3,TransmitNumData,sizeof(TransmitNumData));
+    //HAL_UART_Transmit_DMA(&huart3,TransmitNumData,sizeof(TransmitNumData));
 
     voltage[2]=1.2*(4095.0/(float)ADC_value[2]);
     digital_vref=voltage[2];
@@ -144,7 +148,7 @@ int main(void)
     voltage[1]=ADC_value[1]/4095.0*digital_vref;
 
     sprintf(AD_Transmit_Data,"ADC_value: %d %d %d voltage:  %.2f %.2f %.2f",ADC_value[0],ADC_value[1],ADC_value[2],voltage[0],voltage[1],voltage[2]);
-    HAL_UART_Transmit_DMA(&huart3,(uint8_t*)AD_Transmit_Data,strlen(AD_Transmit_Data));
+   // HAL_UART_Transmit_DMA(&huart3,(uint8_t*)AD_Transmit_Data,strlen(AD_Transmit_Data));
 
 
     /* USER CODE END WHILE */
@@ -201,7 +205,11 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
-
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
+  if (htim->Instance == TIM4) {
+    HAL_UART_Transmit_DMA(&huart3,(uint8_t*)AD_Transmit_Data,strlen(AD_Transmit_Data));
+  }
+}
 /* USER CODE END 4 */
 
 /**
