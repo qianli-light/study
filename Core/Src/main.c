@@ -31,6 +31,8 @@
 
 #include "MY_OLED.h"
 #include "OLED.h"
+
+#include "arm_math.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -61,6 +63,9 @@ uint16_t ADC_value[3];
 float voltage[3];
 float digital_vref=3.3;
 char AD_Transmit_Data[50]="";
+
+float testdata[3]={9.77,0.7,15.679};
+float average=0.0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -150,7 +155,7 @@ int main(void)
     sprintf(AD_Transmit_Data,"ADC_value: %d %d %d voltage:  %.2f %.2f %.2f",ADC_value[0],ADC_value[1],ADC_value[2],voltage[0],voltage[1],voltage[2]);
    // HAL_UART_Transmit_DMA(&huart3,(uint8_t*)AD_Transmit_Data,strlen(AD_Transmit_Data));
 
-
+    arm_mean_f32(testdata,3,&average);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

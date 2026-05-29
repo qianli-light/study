@@ -12,6 +12,8 @@
 		[
 			"add_executable",
 			"target_link_libraries",
+			"target_compile_definitions",
+			"target_include_directories",
 			"target_sources"
 		],
 		"files" : 
@@ -27,7 +29,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 35,
+				"line" : 26,
 				"parent" : 0
 			},
 			{
@@ -40,7 +42,25 @@
 				"parent" : 2
 			},
 			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
 				"command" : 2,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
 				"file" : 1,
 				"line" : 82,
 				"parent" : 2
@@ -53,11 +73,15 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always"
+					"fragment" : " -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -ffunction-sections -fdata-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always"
 				}
 			],
 			"defines" : 
 			[
+				{
+					"backtrace" : 5,
+					"define" : "ARM_MATH_CM3"
+				},
 				{
 					"backtrace" : 3,
 					"define" : "DEBUG"
@@ -73,6 +97,14 @@
 			],
 			"includes" : 
 			[
+				{
+					"backtrace" : 6,
+					"path" : "F:/CLION__Project/study_wnywl1/Drivers/CMSIS/DSP/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "F:/CLION__Project/study_wnywl1/Drivers/CMSIS/Core/Include"
+				},
 				{
 					"backtrace" : 3,
 					"path" : "F:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc"
@@ -130,6 +162,10 @@
 			"defines" : 
 			[
 				{
+					"backtrace" : 5,
+					"define" : "ARM_MATH_CM3"
+				},
+				{
 					"backtrace" : 3,
 					"define" : "DEBUG"
 				},
@@ -144,6 +180,14 @@
 			],
 			"includes" : 
 			[
+				{
+					"backtrace" : 6,
+					"path" : "F:/CLION__Project/study_wnywl1/Drivers/CMSIS/DSP/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "F:/CLION__Project/study_wnywl1/Drivers/CMSIS/Core/Include"
+				},
 				{
 					"backtrace" : 3,
 					"path" : "F:/CLION__Project/study_wnywl1/cmake/stm32cubemx/../../Core/Inc"
@@ -185,7 +229,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3",
+				"fragment" : "-mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -ffunction-sections -fdata-sections -O0 -g3",
 				"role" : "flags"
 			},
 			{
@@ -195,6 +239,11 @@
 			{
 				"backtrace" : 3,
 				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "F:\\CLION__Project\\study_wnywl1\\Drivers\\CMSIS\\Lib\\GCC\\libarm_cortexM3l_math.a",
 				"role" : "libraries"
 			}
 		],
@@ -264,6 +313,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "Core/Src/main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "Core/Src/OLED.c",
 			"sourceGroupIndex" : 0
 		},
@@ -280,67 +335,61 @@
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 4,
-			"compileGroupIndex" : 0,
-			"path" : "Core/Src/main.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 4,
+			"backtrace" : 7,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/gpio.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 4,
+			"backtrace" : 7,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/adc.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 4,
+			"backtrace" : 7,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/dma.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 4,
+			"backtrace" : 7,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/tim.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 4,
+			"backtrace" : 7,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/usart.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 4,
+			"backtrace" : 7,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/stm32f1xx_it.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 4,
+			"backtrace" : 7,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/stm32f1xx_hal_msp.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 4,
+			"backtrace" : 7,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/sysmem.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 4,
+			"backtrace" : 7,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/syscalls.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 4,
+			"backtrace" : 7,
 			"compileGroupIndex" : 1,
 			"path" : "startup_stm32f103xb.s",
 			"sourceGroupIndex" : 1

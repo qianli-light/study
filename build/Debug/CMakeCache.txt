@@ -117,6 +117,9 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 //Enable/Disable output of build database during the build.
 CMAKE_EXPORT_BUILD_DATABASE:BOOL=
 
+//Enable/Disable output of compile commands during generation.
+CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=1
+
 //Value Computed by CMake.
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=F:/CLION__Project/study_wnywl1/build/Debug/CMakeFiles/pkgRedirects
 
@@ -233,6 +236,42 @@ CMAKE_TOOLCHAIN_FILE:FILEPATH=F:/CLION__Project/study_wnywl1/cmake/gcc-arm-none-
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
+C_BINARY_DIR:STATIC=F:/CLION__Project/study_wnywl1/build/Debug/cmake/stm32cubemx
+
+//Value Computed by CMake
+C_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+C_SOURCE_DIR:STATIC=F:/CLION__Project/study_wnywl1/cmake/stm32cubemx
+
+//Value Computed by CMake
+STM32F1_DSP_BINARY_DIR:STATIC=F:/CLION__Project/study_wnywl1/build/Debug
+
+//Value Computed by CMake
+STM32F1_DSP_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+STM32F1_DSP_SOURCE_DIR:STATIC=F:/CLION__Project/study_wnywl1
+
+//Value Computed by CMake
+STM32F4_DSP_BINARY_DIR:STATIC=F:/CLION__Project/study_wnywl1/build/Debug/cmake/stm32cubemx
+
+//Value Computed by CMake
+STM32F4_DSP_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+STM32F4_DSP_SOURCE_DIR:STATIC=F:/CLION__Project/study_wnywl1/cmake/stm32cubemx
+
+//Value Computed by CMake
+STM32_DSP_BINARY_DIR:STATIC=F:/CLION__Project/study_wnywl1/build/Debug/cmake/stm32cubemx
+
+//Value Computed by CMake
+STM32_DSP_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+STM32_DSP_SOURCE_DIR:STATIC=F:/CLION__Project/study_wnywl1/cmake/stm32cubemx
+
+//Value Computed by CMake
 study_BINARY_DIR:STATIC=F:/CLION__Project/study_wnywl1/build/Debug
 
 //Value Computed by CMake
@@ -323,6 +362,8 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_EXPORT_BUILD_DATABASE
 CMAKE_EXPORT_BUILD_DATABASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_EXPORT_COMPILE_COMMANDS
+CMAKE_EXPORT_COMPILE_COMMANDS-ADVANCED:INTERNAL=1
 //Name of external makefile project generator.
 CMAKE_EXTRA_GENERATOR:INTERNAL=
 //Name of generator.

@@ -80,6 +80,7 @@ extern uint8_t ReceiveData[2];
 extern int EC_count;
 extern float voltage[3];
   extern uint16_t ADC_value[3];
+  extern float average;
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

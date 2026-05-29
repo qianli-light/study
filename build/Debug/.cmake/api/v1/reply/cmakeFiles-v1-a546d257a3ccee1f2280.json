@@ -25,6 +25,10 @@
 			"path" : "build/Debug/CMakeFiles/4.1.2/CMakeCXXCompiler.cmake"
 		},
 		{
+			"isGenerated" : true,
+			"path" : "build/Debug/CMakeFiles/4.1.2/CMakeASMCompiler.cmake"
+		},
+		{
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "E:/CLION/CLion 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake"
@@ -128,10 +132,6 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "E:/CLION/CLion 2025.3.1/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake"
-		},
-		{
-			"isGenerated" : true,
-			"path" : "build/Debug/CMakeFiles/4.1.2/CMakeASMCompiler.cmake"
 		},
 		{
 			"isCMake" : true,

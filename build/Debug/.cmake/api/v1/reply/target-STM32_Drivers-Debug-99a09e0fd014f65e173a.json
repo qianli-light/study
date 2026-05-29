@@ -97,7 +97,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always"
+					"fragment" : " -mcpu=cortex-m3  -Wall -fdata-sections -ffunction-sections -ffunction-sections -fdata-sections -O0 -g3 -std=gnu11 -fdiagnostics-color=always"
 				}
 			],
 			"defines" : 

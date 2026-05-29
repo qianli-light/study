@@ -64,6 +64,7 @@ void interface_5_head(void) {
     OLED_ShowString(0,0,"EC_count:",OLED_8X16);
     OLED_ShowString(0,16,"ADC_value:",OLED_6X8);
     OLED_ShowString(0,32,"Voltage:",OLED_6X8);
+    OLED_ShowString(0,48,"average:",OLED_6X8);
 
 
     OLED_Update();
@@ -78,6 +79,8 @@ void interface_5_main(void) {
     OLED_ShowFloatNum(48,32,voltage[0],1,2,OLED_6X8);
     OLED_ShowFloatNum(84,32,voltage[1],1,2,OLED_6X8);
     OLED_ShowFloatNum(48,40,voltage[2],1,2,OLED_6X8);
+
+    OLED_ShowFloatNum(48,48,average,2,2,OLED_6X8);
 
     OLED_Update();
 }
