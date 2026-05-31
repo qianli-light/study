@@ -113,8 +113,10 @@ int main(void)
   MX_USART3_UART_Init();
   MX_ADC1_Init();
   MX_TIM4_Init();
+  MX_TIM1_Init();
   /* USER CODE BEGIN 2 */
   HAL_TIM_Base_Start_IT(&htim4);
+
 
   interface_3();
   HAL_Delay(1000);
@@ -127,7 +129,9 @@ int main(void)
   HAL_ADC_Start_DMA(&hadc1,(uint32_t*)ADC_value,sizeof(ADC_value)/sizeof(uint16_t));
 
   HAL_UART_Receive_DMA(&huart3,ReceiveData,2);
-
+  HAL_TIM_Base_Start_IT(&htim1);
+  HAL_TIM_PWM_Start(&htim1,TIM_CHANNEL_1);
+  HAL_TIMEx_PWMN_Start(&htim1,TIM_CHANNEL_1);
 
 
   /* USER CODE END 2 */
@@ -141,7 +145,7 @@ int main(void)
     TransmitNumData[0]=EC_count;
 
     HAL_GPIO_TogglePin(GPIOA,LED_SIMPLE_Pin);
-    HAL_Delay(500);
+    //HAL_Delay(500);
 
     //HAL_UART_Transmit_DMA(&huart3, (uint8_t*)TransmitCharData,strlen(TransmitCharData));
     //HAL_UART_Transmit_DMA(&huart3,TransmitNumData,sizeof(TransmitNumData));
@@ -214,7 +218,33 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
   if (htim->Instance == TIM4) {
     HAL_UART_Transmit_DMA(&huart3,(uint8_t*)AD_Transmit_Data,strlen(AD_Transmit_Data));
   }
+  else if (htim->Instance == TIM1) {
+    static int i=0;
+    static uint8_t mode=0;
+    if (mode == 0) {
+      __HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,i);
+      i++;
+
+      if (i>=1000) {
+        mode=1;
+        i--;
+      }
+    }
+    if (mode == 1) {
+      __HAL_TIM_SET_COMPARE(&htim1,TIM_CHANNEL_1,i);
+      i--;
+
+      if (i<0) {
+        mode=0;
+        i++;
+      }
+    }
+
+
+  }
 }
+
+
 /* USER CODE END 4 */
 
 /**
